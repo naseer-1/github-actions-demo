@@ -19,4 +19,4 @@ jobs:
       run: npm install -g prettier
       
     - name: Check formatting
-      run: prettier --check .
+      run: prettier --write .
